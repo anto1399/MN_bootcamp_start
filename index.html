@@ -11,5 +11,47 @@
     <h1>Welcome to my nice website</h1>
 
     <!-- Kessi Section -->
+    <nav class="navbar">
+        <div class="right">
+         <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Features</li>
+          </ul>
+        </div>
+        
+        <div>
+            <button>Login</button>
+            <button>Register</button>
+        </div>
+    </nav>
+    <style>
+        .navbar{
+            display: flex;
+            background-color: aqua;
+        }
+        ul{
+            display: flex;
+            
+        }
+        ul>li{
+            /* display: flex; */
+            padding: 10px;
+            justify-content: space-between;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            margin: 25px;
+        }
+    </style>
 </body>
 </html>
